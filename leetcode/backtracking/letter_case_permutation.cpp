@@ -7,9 +7,9 @@
 // 784. Letter Case Permutation
 class Solution {
  public:
-  std::vector<std::string> letterCasePermutation(const std::string& s) {
+  std::vector<std::string> letterCasePermutation(const std::string& str) {
     std::vector<std::string> result{""};
-    for (auto ch : s) {
+    for (auto ch : str) {
       auto n = result.size();
       for (auto i = 0; i < n; ++i) {
         if (std::isalpha(ch)) {

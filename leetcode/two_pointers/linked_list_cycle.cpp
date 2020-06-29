@@ -10,6 +10,9 @@
 class Solution {
  public:
   bool hasCycle(ListNode* head) {
+    if (!head) {
+      return false;
+    }
     auto fast = head;
     auto slow = head;
     while (fast->next && fast->next->next) {
@@ -40,6 +43,11 @@ TEST_CASE("Linked list cycle") {
 
   SUBCASE("No cycle") {
     List list{1};
+    REQUIRE(!s.hasCycle(list.head));
+  }
+
+  SUBCASE("Empty") {
+    List list{};
     REQUIRE(!s.hasCycle(list.head));
   }
 }

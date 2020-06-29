@@ -4,6 +4,7 @@
 #include <climits>
 #include <vector>
 
+// 53. Maximum Subarray
 class Solution {
  public:
   int maxSubArray(const std::vector<int>& nums) {
@@ -11,8 +12,8 @@ class Solution {
     auto max_sum = INT_MIN;
     for (auto n : nums) {
       sum += n;
-      sum = std::max(sum, 0);
       max_sum = std::max(max_sum, sum);
+      sum = std::max(sum, 0);
     }
     return max_sum;
   }
@@ -48,9 +49,13 @@ class Solution {
 TEST_CASE("Max subarray") {
   Solution s;
   REQUIRE_EQ(s.maxSubArray({-2, 1, -3, 4, -1, 2, 1, -5, 4}), 6);
+
+  REQUIRE_EQ(s.maxSubArray({-1}), -1);
 }
 
 TEST_CASE("Max subarray divide") {
   Solution s;
   REQUIRE_EQ(s.maxSubArrayDivide({-2, 1, -3, 4, -1, 2, 1, -5, 4}), 6);
+
+  REQUIRE_EQ(s.maxSubArrayDivide({-1}), -1);
 }

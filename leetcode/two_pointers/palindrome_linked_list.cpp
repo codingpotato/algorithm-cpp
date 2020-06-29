@@ -6,6 +6,9 @@
 class Solution {
  public:
   bool isPalindrome(ListNode* head) {
+    if (!head || !head->next) {
+      return true;
+    }
     auto fast = head;
     auto slow = head;
     while (fast->next && fast->next->next) {
@@ -47,6 +50,16 @@ TEST_CASE("Palindrome linked list") {
 
   SUBCASE("Palindrome") {
     List list{1, 2, 2, 1};
+    REQUIRE(s.isPalindrome(list.head));
+  }
+
+  SUBCASE("Empty") {
+    List list{};
+    REQUIRE(s.isPalindrome(list.head));
+  }
+
+  SUBCASE("Single") {
+    List list{1};
     REQUIRE(s.isPalindrome(list.head));
   }
 }
