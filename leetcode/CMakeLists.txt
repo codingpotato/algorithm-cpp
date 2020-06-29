@@ -1,6 +1,15 @@
 set(LEETCODE_SOURCES
-    leetcode/duplicate_zeros.cpp
-    leetcode/move_zeros.cpp
-    leetcode/number_of_segments.cpp
-    leetcode/valid_anagram.cpp
+    leetcode/array/contains_duplicate.cpp
+    leetcode/array/find_all_numbers.cpp
+    leetcode/array/missing_number.cpp
+    leetcode/array/single_number.cpp
+    leetcode/backtracking/letter_case_permutation.cpp
+    leetcode/dp/climbing_stairs.cpp
+    leetcode/dp/house_robber.cpp
+    leetcode/dp/max_subarray.cpp
+    leetcode/dp/range_sum_query.cpp
+    leetcode/dp/stock_once.cpp
+    leetcode/two_pointers/linked_list_cycle.cpp
+    leetcode/two_pointers/middle_linked_list.cpp
+    leetcode/two_pointers/palindrome_linked_list.cpp
     PARENT_SCOPE)

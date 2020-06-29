@@ -25,7 +25,7 @@ add_subdirectory(leetcode)
 
 add_executable(algorithm-cpp main.cpp ${LEETCODE_SOURCES})
 add_dependencies(algorithm-cpp doctest)
-target_include_directories(algorithm-cpp PUBLIC ${DOCTEST_DIR})
+target_include_directories(algorithm-cpp PUBLIC helper ${DOCTEST_DIR})
 
 include(${DOCTEST_DIR}/scripts/cmake/doctest.cmake)
 doctest_discover_tests(algorithm-cpp)
