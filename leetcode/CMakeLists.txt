@@ -9,7 +9,10 @@ set(LEETCODE_SOURCES
     leetcode/dp/max_subarray.cpp
     leetcode/dp/range_sum_query.cpp
     leetcode/dp/stock_once.cpp
+    leetcode/linked_list/reverse.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
     leetcode/two_pointers/middle_linked_list.cpp
     leetcode/two_pointers/palindrome_linked_list.cpp
+    leetcode/two_pointers/remove_duplicates.cpp
+    leetcode/two_pointers/remove_elements.cpp
     PARENT_SCOPE)
