@@ -4,6 +4,7 @@ set(LEETCODE_SOURCES
     leetcode/array/missing_number.cpp
     leetcode/array/single_number.cpp
     leetcode/backtracking/letter_case_permutation.cpp
+    leetcode/binary_search/binary_search.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/house_robber.cpp
     leetcode/dp/max_subarray.cpp
@@ -11,6 +12,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/linked_list/reverse.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
+    leetcode/two_pointers/merge_sorted_list.cpp
     leetcode/two_pointers/middle_linked_list.cpp
     leetcode/two_pointers/palindrome_linked_list.cpp
     leetcode/two_pointers/remove_duplicates.cpp

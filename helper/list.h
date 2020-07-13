@@ -1,8 +1,8 @@
 #ifndef __LIST__H__
 #define __LIST__H__
 
-#include <algorithm>
 #include <initializer_list>
+#include <iterator>
 
 struct ListNode {
   int val;
@@ -35,4 +35,4 @@ struct List {
   ListNode *head = nullptr;
 };
 
-#endif  //!__LIST__H__
+#endif  //__LIST__H__
