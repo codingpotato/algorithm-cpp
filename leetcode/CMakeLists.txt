@@ -4,7 +4,13 @@ set(LEETCODE_SOURCES
     leetcode/array/missing_number.cpp
     leetcode/array/single_number.cpp
     leetcode/backtracking/letter_case_permutation.cpp
+    leetcode/bfs/average_levels.cpp
+    leetcode/bfs/level_traversal.cpp
     leetcode/binary_search/binary_search.cpp
+    leetcode/binary_search/peak_index.cpp
+    leetcode/binary_search/smallest_letter.cpp
+    leetcode/dfs/min_depth.cpp
+    leetcode/dfs/same_tree.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/house_robber.cpp
     leetcode/dp/max_subarray.cpp

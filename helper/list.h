@@ -35,4 +35,4 @@ struct List {
   ListNode *head = nullptr;
 };
 
-#endif  //__LIST__H__
+#endif  // __LIST__H__
