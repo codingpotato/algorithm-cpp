@@ -1,5 +1,6 @@
 #include <doctest/doctest.h>
 
+#include <climits>
 #include <vector>
 
 // 852. Peak Index in a Mountain Array
@@ -10,9 +11,11 @@ class Solution {
     int right = A.size() - 1;
     while (left < right) {
       auto mid = left + (right - left) / 2;
-      if (A[mid] > A[mid - 1] && A[mid] > A[mid + 1]) {
+      auto v_l = mid > 0 ? A[mid - 1] : INT_MIN;
+      auto v_r = mid < A.size() - 1 ? A[mid + 1] : INT_MIN;
+      if (A[mid] > v_l && A[mid] > v_r) {
         return mid;
-      } else if (A[mid] < A[mid - 1]) {
+      } else if (A[mid] < v_l) {
         right = mid - 1;
       } else {
         left = mid + 1;

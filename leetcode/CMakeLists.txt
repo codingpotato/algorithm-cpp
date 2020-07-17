@@ -9,18 +9,29 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/smallest_letter.cpp
+    leetcode/dfs/diameter.cpp
+    leetcode/dfs/invert.cpp
+    leetcode/dfs/lowest_common_ancestor.cpp
+    leetcode/dfs/max_depth.cpp
+    leetcode/dfs/merge.cpp
     leetcode/dfs/min_depth.cpp
+    leetcode/dfs/path_sum.cpp
     leetcode/dfs/same_tree.cpp
+    leetcode/dfs/subtree.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/house_robber.cpp
     leetcode/dp/max_subarray.cpp
     leetcode/dp/range_sum_query.cpp
     leetcode/dp/stock_once.cpp
+    leetcode/hash_table/two_sum.cpp
     leetcode/linked_list/reverse.cpp
+    leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
     leetcode/two_pointers/merge_sorted_list.cpp
     leetcode/two_pointers/middle_linked_list.cpp
     leetcode/two_pointers/palindrome_linked_list.cpp
+    leetcode/two_pointers/
     leetcode/two_pointers/remove_duplicates.cpp
     leetcode/two_pointers/remove_elements.cpp
+    leetcode/two_pointers/squares.cpp
     PARENT_SCOPE)
