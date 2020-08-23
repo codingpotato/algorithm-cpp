@@ -1,7 +1,10 @@
 set(LEETCODE_SOURCES
     leetcode/array/contains_duplicate.cpp
+    leetcode/array/duplicate_number.cpp
+    leetcode/array/find_all_duplicates.cpp
     leetcode/array/find_all_numbers.cpp
     leetcode/array/missing_number.cpp
+    leetcode/array/product_array.cpp
     leetcode/array/single_number.cpp
     leetcode/backtracking/letter_case_permutation.cpp
     leetcode/bfs/average_levels.cpp

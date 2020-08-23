@@ -69,7 +69,7 @@ class Solution {
   }
 };
 
-TEST_CASE("") {
+TEST_CASE("Longest Word in Dictionary") {
   Solution s;
   REQUIRE_EQ(s.longestWord({"w", "wo", "wor", "worl", "world"}), "world");
   REQUIRE_EQ(
