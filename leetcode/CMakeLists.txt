@@ -38,5 +38,6 @@ set(LEETCODE_SOURCES
     leetcode/two_pointers/
     leetcode/two_pointers/remove_duplicates.cpp
     leetcode/two_pointers/remove_elements.cpp
+    leetcode/two_pointers/remove_nth_node.cpp
     leetcode/two_pointers/squares.cpp
     PARENT_SCOPE)

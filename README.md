@@ -3,6 +3,7 @@
 | No  | Title                                          | Type          |
 | --- | ---------------------------------------------- | ------------- |
 | 1   | Two Sum                                        | Hash table    |
+| 19  | Remove Nth Node From End of List               | Two Pointers  |
 | 21  | Merge Two Sorted Lists                         | Two Pointers  |
 | 53  | Maximum Subarray                               | DP            |
 | 70  | Climbing Stairs                                | DP            |

@@ -22,7 +22,7 @@ class Solution {
   }
 };
 
-TEST_CASE("") {
+TEST_CASE("Remove Linked List Elements") {
   Solution s;
   List list{1, 2, 6, 3, 4, 5, 6};
   auto head = s.removeElements(list.head, 6);
