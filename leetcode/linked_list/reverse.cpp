@@ -6,14 +6,14 @@
 class Solution {
  public:
   ListNode* reverseList(ListNode* head) {
-    ListNode* previous = nullptr;
+    ListNode* result = nullptr;
     while (head) {
       auto next = head->next;
-      head->next = previous;
-      previous = head;
+      head->next = result;
+      result = head;
       head = next;
     }
-    return previous;
+    return result;
   }
 };
 

@@ -25,6 +25,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/hash_table/two_sum.cpp
     leetcode/linked_list/reverse.cpp
+    leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
     leetcode/two_pointers/merge_sorted_list.cpp
