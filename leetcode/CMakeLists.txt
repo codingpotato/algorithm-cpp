@@ -21,6 +21,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/path_sum.cpp
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/subtree.cpp
+    leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/house_robber.cpp
     leetcode/dp/max_subarray.cpp

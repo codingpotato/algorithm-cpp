@@ -7,6 +7,7 @@
 | 53  | Maximum Subarray                               | DP            |
 | 70  | Climbing Stairs                                | DP            |
 | 83  | Remove Duplicates from Sorted List             | Two Pointers  |
+| 98  | Validate Binary Search Tree                    | DFS           |
 | 100 | Same Tree                                      | DFS           |
 | 104 | Maximum Depth of Binary Tree                   | DFS           |
 | 107 | Binary Tree Level Order Traversal II           | BFS           |
