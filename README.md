@@ -33,6 +33,7 @@
 | 417 | Pacific Atlantic Water Flow                    | DFS           |
 | 442 | Find All Duplicates in an Array                | Array         |
 | 448 | Find All Numbers Disappeared in an Array       | Array         |
+| 494 | Target Sum                                     | DFS           |
 | 543 | Diameter of Binary Tree                        | DFS           |
 | 572 | Subtree of Another Tree                        | DFS           |
 | 617 | Merge Two Binary Trees                         | DFS           |

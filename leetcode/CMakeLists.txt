@@ -17,13 +17,14 @@ set(LEETCODE_SOURCES
     leetcode/dfs/lowest_common.cpp
     leetcode/dfs/lowest_common_ancestor.cpp
     leetcode/dfs/max_depth.cpp
-    leetcode/dfs/maximum_treee.cpp
+    leetcode/dfs/maximum_tree.cpp
     leetcode/dfs/merge.cpp
     leetcode/dfs/min_depth.cpp
     leetcode/dfs/pacific_atlantic.cpp
     leetcode/dfs/path_sum.cpp
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/subtree.cpp
+    leetcode/dfs/target_sum.cpp
     leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/house_robber.cpp
