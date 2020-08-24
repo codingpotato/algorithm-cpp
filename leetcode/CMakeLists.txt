@@ -18,6 +18,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/max_depth.cpp
     leetcode/dfs/merge.cpp
     leetcode/dfs/min_depth.cpp
+    leetcode/dfs/pacific_atlantic.cpp
     leetcode/dfs/path_sum.cpp
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/subtree.cpp
