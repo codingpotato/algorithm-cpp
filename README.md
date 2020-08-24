@@ -41,7 +41,7 @@
 | 654 | Maximum Binary Tree                            | Binary Tree   |
 | 704 | Binary Search                                  | DFS           |
 | 720 | Longest Word in Dictionary                     | Trie          |
-| 744 | ind Smallest Letter Greater Than Target        | Binary Search |
+| 744 | Find Smallest Letter Greater Than Target       | Binary Search |
 | 784 | Letter Case Permutation                        | BackTracking  |
 | 844 | Backspace String Compare                       | Tow Pointers  |
 | 852 | Peak Index in a Mountain Array                 | Binary Search |
