@@ -6,6 +6,7 @@
 | 19  | Remove Nth Node From End of List               | Two Pointers  |
 | 21  | Merge Two Sorted Lists                         | Two Pointers  |
 | 53  | Maximum Subarray                               | DP            |
+| 61  | Rotate List                                    | Two Pointers  |
 | 70  | Climbing Stairs                                | DP            |
 | 83  | Remove Duplicates from Sorted List             | Two Pointers  |
 | 98  | Validate Binary Search Tree                    | DFS           |
@@ -24,6 +25,7 @@
 | 226 | Invert Binary Tree                             | DFS           |
 | 234 | Palindrome Linked List                         | Two Pointers  |
 | 235 | Lowest Common Ancestor of a Binary Search Tree | DFS           |
+| 236 | Lowest Common Ancestor of a Binary Tree        | DFS           |
 | 238 | Product of Array Except Self                   | Array         |
 | 268 | Missing Number                                 | Array         |
 | 287 | Find the Duplicate Number                      | Array         |
@@ -35,7 +37,8 @@
 | 572 | Subtree of Another Tree                        | DFS           |
 | 617 | Merge Two Binary Trees                         | DFS           |
 | 637 | Average of Levels in Binary Tree               | BFS           |
-| 704 | Binary Search                                  | Binary Search |
+| 654 | Maximum Binary Tree                            | Binary Tree   |
+| 704 | Binary Search                                  | DFS           |
 | 720 | Longest Word in Dictionary                     | Trie          |
 | 744 | ind Smallest Letter Greater Than Target        | Binary Search |
 | 784 | Letter Case Permutation                        | BackTracking  |

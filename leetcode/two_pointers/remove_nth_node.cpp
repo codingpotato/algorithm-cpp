@@ -25,14 +25,6 @@ class Solution {
   }
 };
 
-void verify_list(const ListNode* head, const std::vector<int> expected) {
-  for (auto n : expected) {
-    REQUIRE_EQ(head->val, n);
-    head = head->next;
-  }
-  REQUIRE_EQ(head, nullptr);
-}
-
 TEST_CASE("Remove Nth Node From End of List") {
   Solution s;
 

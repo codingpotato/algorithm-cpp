@@ -14,8 +14,10 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/smallest_letter.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/invert.cpp
+    leetcode/dfs/lowest_common.cpp
     leetcode/dfs/lowest_common_ancestor.cpp
     leetcode/dfs/max_depth.cpp
+    leetcode/dfs/maximum_treee.cpp
     leetcode/dfs/merge.cpp
     leetcode/dfs/min_depth.cpp
     leetcode/dfs/pacific_atlantic.cpp
@@ -40,5 +42,6 @@ set(LEETCODE_SOURCES
     leetcode/two_pointers/remove_duplicates.cpp
     leetcode/two_pointers/remove_elements.cpp
     leetcode/two_pointers/remove_nth_node.cpp
+    leetcode/two_pointers/rotate_list.cpp
     leetcode/two_pointers/squares.cpp
     PARENT_SCOPE)
