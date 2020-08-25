@@ -33,6 +33,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/max_subarray.cpp
     leetcode/dp/range_sum_query.cpp
     leetcode/dp/stock_once.cpp
+    leetcode/dp/word_break.cpp
     leetcode/hash_table/two_sum.cpp
     leetcode/linked_list/reverse.cpp
     leetcode/trie/longest_word.cpp

@@ -19,6 +19,7 @@
 | 112 | Path Sum                                       | DFS           |
 | 121 | Best Time to Buy and Sell Stock                | DP            |
 | 136 | Single Number                                  | Array         |
+| 139 | Word Break                                     | DP            |
 | 141 | Linked List Cycle                              | Two Pointers  |
 | 146 | LRU Cache                                      | Design        |
 | 198 | House Robber                                   | DP            |
