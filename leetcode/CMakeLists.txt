@@ -12,6 +12,7 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/smallest_letter.cpp
+    leetcode/design/LRU_cache.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/invert.cpp
     leetcode/dfs/lowest_common.cpp
