@@ -21,9 +21,10 @@ set(CMAKE_CXX_FLAGS_RELEASE
 set(DOCTEST_DIR ${PROJECT_SOURCE_DIR}/tools/doctest)
 add_subdirectory(tools)
 
+add_subdirectory(ctci)
 add_subdirectory(leetcode)
 
-add_executable(algorithm-cpp main.cpp ${LEETCODE_SOURCES})
+add_executable(algorithm-cpp main.cpp ${CTCI_SOURCES} ${LEETCODE_SOURCES})
 add_dependencies(algorithm-cpp doctest)
 target_include_directories(algorithm-cpp PUBLIC helper ${DOCTEST_DIR})
 
