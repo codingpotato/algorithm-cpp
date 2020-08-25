@@ -18,6 +18,7 @@
 | 121 | Best Time to Buy and Sell Stock                | DP            |
 | 136 | Single Number                                  | Array         |
 | 141 | Linked List Cycle                              | Two Pointers  |
+| 146 | LRU Cache                                      | Design        |
 | 198 | House Robber                                   | DP            |
 | 203 | Remove Linked List Elements                    | Two Pointers  |
 | 206 | Reverse Linked List                            | Linked List   |

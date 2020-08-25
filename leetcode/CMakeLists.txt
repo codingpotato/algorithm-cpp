@@ -29,6 +29,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/house_robber.cpp
+    leetcode/dp/interleaving_string.cpp
     leetcode/dp/max_subarray.cpp
     leetcode/dp/range_sum_query.cpp
     leetcode/dp/stock_once.cpp
