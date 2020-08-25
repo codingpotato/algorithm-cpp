@@ -47,4 +47,5 @@ set(LEETCODE_SOURCES
     leetcode/two_pointers/remove_nth_node.cpp
     leetcode/two_pointers/rotate_list.cpp
     leetcode/two_pointers/squares.cpp
+    leetcode/two_pointers/three_sum.cpp
     PARENT_SCOPE)
