@@ -1,5 +1,6 @@
-set(SOURCES array/subarray_with_sum.cpp)
-
-add_library(geeksforgeeks STATIC ${SOURCES})
-target_include_directories(geeksforgeeks PUBLIC ../helper ${DOCTEST_DIR})
-target_compile_options(geeksforgeeks PUBLIC -Wall -Werror -Wextra)
+set(GEEKSFORGEEKS_SOURCES 
+  geeksforgeeks/array/muximum_index.cpp 
+  geeksforgeeks/bit/find_numbers.cpp 
+  geeksforgeeks/sliding_window/subarray_with_sum.cpp
+  geeksforgeeks/stack/longest_parentheses.cpp
+  PARENT_SCOPE)
