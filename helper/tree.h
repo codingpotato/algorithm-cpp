@@ -50,7 +50,7 @@ struct Tree {
     std::queue<TreeNode *> queue;
     root = new TreeNode{std::stoi(values[0])};
     queue.push(root);
-    auto index = 1;
+    size_t index = 1;
     while (index < values.size()) {
       auto node = queue.front();
       queue.pop();

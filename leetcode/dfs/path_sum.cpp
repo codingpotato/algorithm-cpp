@@ -8,9 +8,9 @@
 class Solution {
  public:
   bool hasPathSum(TreeNode* root, int sum) {
-    return root && !root->left && !root->right && sum == root->val ||
-           root && root->left && hasPathSum(root->left, sum - root->val) ||
-           root && root->right && hasPathSum(root->right, sum - root->val);
+    return (root && !root->left && !root->right && sum == root->val) ||
+           (root && root->left && hasPathSum(root->left, sum - root->val)) ||
+           (root && root->right && hasPathSum(root->right, sum - root->val));
   }
 };
 

@@ -10,7 +10,7 @@ class Solution {
     std::vector<int> result;
     auto right = smallest_positive_number(A);
     auto left = right - 1;
-    while (left >= 0 && right < A.size()) {
+    while (left >= 0 && right < static_cast<int>(A.size())) {
       if (std::abs(A[left]) <= std::abs(A[right])) {
         result.push_back(A[left] * A[left]);
         --left;
@@ -23,7 +23,7 @@ class Solution {
       result.push_back(A[left] * A[left]);
       --left;
     }
-    while (right < A.size()) {
+    while (right < static_cast<int>(A.size())) {
       result.push_back(A[right] * A[right]);
       ++right;
     }

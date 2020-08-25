@@ -22,11 +22,14 @@ set(DOCTEST_DIR ${PROJECT_SOURCE_DIR}/tools/doctest)
 add_subdirectory(tools)
 
 add_subdirectory(ctci)
+add_subdirectory(geeksforgeeks)
 add_subdirectory(leetcode)
 
 add_executable(algorithm-cpp main.cpp ${CTCI_SOURCES} ${LEETCODE_SOURCES})
 add_dependencies(algorithm-cpp doctest)
 target_include_directories(algorithm-cpp PUBLIC helper ${DOCTEST_DIR})
+target_compile_options(algorithm-cpp PUBLIC -Wall -Werror -Wextra)
+target_link_libraries(algorithm-cpp PUBLIC geeksforgeeks)
 
 include(${DOCTEST_DIR}/scripts/cmake/doctest.cmake)
 doctest_discover_tests(algorithm-cpp)

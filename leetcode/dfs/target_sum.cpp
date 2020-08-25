@@ -18,7 +18,7 @@ class Solution {
   int findTargetSumWays(const std::vector<int>& nums, int S, int sum, int index,
                         Table& table) {
     if (table[index].find(sum) == table[index].end()) {
-      if (index == nums.size() - 1) {
+      if (index == static_cast<int>(nums.size()) - 1) {
         table[index][sum] =
             (sum + nums[index] == S ? 1 : 0) + (sum - nums[index] == S ? 1 : 0);
       } else {

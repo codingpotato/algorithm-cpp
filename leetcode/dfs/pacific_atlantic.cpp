@@ -14,8 +14,8 @@ class Solution {
     auto pacific = to_pacific(matrix);
     auto atlantic = to_atlantic(matrix);
 
-    for (int i = 0; i < matrix.size(); ++i) {
-      for (int j = 0; j < matrix[i].size(); ++j) {
+    for (auto i = 0; i < static_cast<int>(matrix.size()); ++i) {
+      for (auto j = 0; j < static_cast<int>(matrix[i].size()); ++j) {
         if (pacific[i][j] && atlantic[i][j]) {
           result.push_back({i, j});
         }
@@ -29,10 +29,10 @@ class Solution {
 
   Status to_pacific(const Matrix& matrix) {
     Status status{matrix.size(), std::vector<bool>(matrix[0].size(), false)};
-    for (int i = 0; i < matrix.size(); ++i) {
+    for (size_t i = 0; i < matrix.size(); ++i) {
       visit(matrix, i, 0, status);
     }
-    for (int j = 0; j < matrix[0].size(); ++j) {
+    for (size_t j = 0; j < matrix[0].size(); ++j) {
       visit(matrix, 0, j, status);
     }
     return status;
@@ -40,10 +40,10 @@ class Solution {
 
   Status to_atlantic(const Matrix& matrix) {
     Status status{matrix.size(), std::vector<bool>(matrix[0].size(), false)};
-    for (int i = 0; i < matrix.size(); ++i) {
+    for (size_t i = 0; i < matrix.size(); ++i) {
       visit(matrix, i, matrix[0].size() - 1, status);
     }
-    for (int j = 0; j < matrix[0].size(); ++j) {
+    for (size_t j = 0; j < matrix[0].size(); ++j) {
       visit(matrix, matrix.size() - 1, j, status);
     }
     return status;
@@ -54,14 +54,14 @@ class Solution {
     if (i > 0 && !status[i - 1][j] && matrix[i][j] <= matrix[i - 1][j]) {
       visit(matrix, i - 1, j, status);
     }
-    if (i < matrix.size() - 1 && !status[i + 1][j] &&
+    if (i < static_cast<int>(matrix.size()) - 1 && !status[i + 1][j] &&
         matrix[i][j] <= matrix[i + 1][j]) {
       visit(matrix, i + 1, j, status);
     }
     if (j > 0 && !status[i][j - 1] && matrix[i][j] <= matrix[i][j - 1]) {
       visit(matrix, i, j - 1, status);
     }
-    if (j < matrix[i].size() - 1 && !status[i][j + 1] &&
+    if (j < static_cast<int>(matrix[i].size()) - 1 && !status[i][j + 1] &&
         matrix[i][j] <= matrix[i][j + 1]) {
       visit(matrix, i, j + 1, status);
     }

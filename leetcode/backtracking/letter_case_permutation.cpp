@@ -11,7 +11,7 @@ class Solution {
     std::vector<std::string> result{""};
     for (auto ch : str) {
       auto n = result.size();
-      for (auto i = 0; i < n; ++i) {
+      for (size_t i = 0; i < n; ++i) {
         if (std::isalpha(ch)) {
           result.push_back(result[i] + static_cast<char>(std::toupper(ch)));
           result[i] += std::tolower(ch);

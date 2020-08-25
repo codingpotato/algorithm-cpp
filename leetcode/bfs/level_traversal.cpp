@@ -18,7 +18,7 @@ class Solution {
     while (!queue.empty()) {
       auto size = queue.size();
       std::vector<int> row;
-      for (auto i = 0; i < size; ++i) {
+      for (size_t i = 0; i < size; ++i) {
         auto node = queue.front();
         row.push_back(node->val);
         queue.pop();

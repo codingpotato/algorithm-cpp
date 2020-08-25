@@ -10,7 +10,7 @@ class Solution {
     int left = 0;
     int right = A.size() - 1;
     while (left < right) {
-      auto mid = left + (right - left) / 2;
+      size_t mid = left + (right - left) / 2;
       auto v_l = mid > 0 ? A[mid - 1] : INT_MIN;
       auto v_r = mid < A.size() - 1 ? A[mid + 1] : INT_MIN;
       if (A[mid] > v_l && A[mid] > v_r) {

@@ -12,7 +12,7 @@ class Solution {
     for (const auto& word : words) {
       auto current = root;
       auto can_be_built = true;
-      for (auto i = 0; i < word.size(); ++i) {
+      for (size_t i = 0; i < word.size(); ++i) {
         const auto index = word[i] - 'a';
         if (!current->children[index]->end_of_word) {
           can_be_built = false;
@@ -22,7 +22,7 @@ class Solution {
       }
       if (can_be_built &&
           (word.size() > longest_word.size() ||
-           word.size() == longest_word.size() && word < longest_word)) {
+           (word.size() == longest_word.size() && word < longest_word))) {
         longest_word = word;
       }
     }
@@ -52,7 +52,7 @@ class Solution {
     auto root = new TrieNode{0, false};
     for (const auto& word : words) {
       auto current = root;
-      for (auto i = 0; i < word.size(); ++i) {
+      for (size_t i = 0; i < word.size(); ++i) {
         const auto index = word[i] - 'a';
         if (current->children[index]) {
           if (i == word.size() - 1) {

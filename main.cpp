@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int app_main(int argc, char **argv) {
+int app_main() {
   std::cout << "Application starting...\n";
   return 0;
 }

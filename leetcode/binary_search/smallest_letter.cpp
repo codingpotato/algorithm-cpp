@@ -16,7 +16,7 @@ class Solution {
         left = mid + 1;
       }
     }
-    return left < letters.size() ? letters[left] : letters[0];
+    return left < static_cast<int>(letters.size()) ? letters[left] : letters[0];
   }
 };
 

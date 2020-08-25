@@ -6,7 +6,7 @@
 class Solution {
  public:
   std::vector<int> findDuplicates(std::vector<int>& nums) {
-    for (int i = 0; i < nums.size(); ++i) {
+    for (size_t i = 0; i < nums.size(); ++i) {
       auto index = nums[i] - 1;
       while (nums[i] != nums[index]) {
         std::swap(nums[i], nums[index]);
@@ -14,7 +14,7 @@ class Solution {
       }
     }
     std::vector<int> result;
-    for (int i = 0; i < nums.size(); ++i) {
+    for (auto i = 0; i < static_cast<int>(nums.size()); ++i) {
       if (nums[i] != i + 1) {
         result.push_back(nums[i]);
       }

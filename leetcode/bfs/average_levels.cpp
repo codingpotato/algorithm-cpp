@@ -15,7 +15,7 @@ class Solution {
     while (!queue.empty()) {
       auto size = queue.size();
       double sum = 0;
-      for (auto i = 0; i < size; ++i) {
+      for (size_t i = 0; i < size; ++i) {
         auto node = queue.front();
         queue.pop();
         sum += node->val;

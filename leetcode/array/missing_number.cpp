@@ -7,7 +7,7 @@ class Solution {
  public:
   int missingNumber(const std::vector<int>& nums) {
     auto result = nums.size();
-    for (auto i = 0; i < nums.size(); ++i) {
+    for (size_t i = 0; i < nums.size(); ++i) {
       result ^= i;
       result ^= nums[i];
     }

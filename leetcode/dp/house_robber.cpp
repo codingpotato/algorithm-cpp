@@ -14,7 +14,7 @@ class Solution {
     }
     auto max_prev = nums[0];
     auto max_current = std::max(nums[0], nums[1]);
-    for (auto i = 2; i < nums.size(); ++i) {
+    for (size_t i = 2; i < nums.size(); ++i) {
       auto next = std::max(max_prev + nums[i], max_current);
       max_prev = max_current;
       max_current = next;

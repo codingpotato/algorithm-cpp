@@ -7,7 +7,7 @@ class Solution {
  public:
   std::vector<int> findDisappearedNumbers(std::vector<int>& nums) {
     auto index = 0;
-    while (index < nums.size()) {
+    while (index < static_cast<int>(nums.size())) {
       auto target = nums[index] - 1;
       if (target != index && nums[index] != nums[target]) {
         std::swap(nums[index], nums[target]);
@@ -16,7 +16,7 @@ class Solution {
       }
     }
     std::vector<int> result;
-    for (auto index = 0; index < nums.size(); ++index) {
+    for (auto index = 0; index < static_cast<int>(nums.size()); ++index) {
       if (nums[index] - 1 != index) {
         result.push_back(index + 1);
       }
