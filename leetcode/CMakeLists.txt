@@ -55,7 +55,9 @@ set(LEETCODE_SOURCES
     leetcode/two_pointers/merge_sorted_list.cpp
     leetcode/two_pointers/middle_linked_list.cpp
     leetcode/two_pointers/palindrome_linked_list.cpp
-    leetcode/two_pointers/remove_duplicates.cpp
+    leetcode/two_pointers/remove_duplicates_from_list.cpp
+    leetcode/two_pointers/remove_duplicates_from_list_II.cpp
+    leetcode/two_pointers/remove_duplicates_II.cpp
     leetcode/two_pointers/remove_elements.cpp
     leetcode/two_pointers/remove_nth_node.cpp
     leetcode/two_pointers/rotate_list.cpp

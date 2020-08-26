@@ -36,13 +36,4 @@ struct List {
   ListNode *head = nullptr;
 };
 
-inline void verify_list(const ListNode *head,
-                        const std::vector<int> &expected) {
-  for (auto n : expected) {
-    REQUIRE_EQ(head->val, n);
-    head = head->next;
-  }
-  REQUIRE_EQ(head, nullptr);
-}
-
 #endif  // __LIST__H__

@@ -4,6 +4,7 @@
 #include <vector>
 
 #include "list.h"
+#include "verify.h"
 
 // 61. Rotate List
 class Solution {

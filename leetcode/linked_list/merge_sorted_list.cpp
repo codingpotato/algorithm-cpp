@@ -1,6 +1,7 @@
 #include <doctest/doctest.h>
 
 #include "list.h"
+#include "verify.h"
 
 // 21. Merge Two Sorted Lists
 class Solution {

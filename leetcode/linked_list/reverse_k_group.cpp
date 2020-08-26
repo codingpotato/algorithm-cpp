@@ -1,6 +1,7 @@
 #include <doctest/doctest.h>
 
 #include "list.h"
+#include "verify.h"
 
 // 25. Reverse Nodes in k-Group
 class Solution {

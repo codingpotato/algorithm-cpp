@@ -21,6 +21,8 @@
 | 61  | Rotate List                                             | Two Pointers   |
 | 70  | Climbing Stairs                                         | DP             |
 | 78  | Subsets                                                 | Backtracking   |
+| 80  | Remove Duplicates from Sorted Array II                  | Two Pointers   |
+| 82  | Remove Duplicates from Sorted List II                   | Two Pointers   |
 | 83  | Remove Duplicates from Sorted List                      | Two Pointers   |
 | 97  | Interleaving String                                     | DP             |
 | 98  | Validate Binary Search Tree                             | DFS            |

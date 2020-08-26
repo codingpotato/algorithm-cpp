@@ -3,7 +3,7 @@
 #include <vector>
 
 // 33. Search in Rotated Sorted Array
-namespace search_rotated {
+namespace {
 
 class Solution {
  public:
@@ -32,10 +32,10 @@ class Solution {
   }
 };
 
-}  // namespace search_rotated
+}  // namespace
 
 TEST_CASE("Search in Rotated Sorted Array") {
-  search_rotated::Solution s;
+  Solution s;
   REQUIRE_EQ(s.search({4, 5, 6, 7, 0, 1, 2}, 0), 4);
   REQUIRE_EQ(s.search({4, 5, 6, 7, 0, 1, 2}, 3), -1);
   REQUIRE_EQ(s.search({1}, 0), -1);

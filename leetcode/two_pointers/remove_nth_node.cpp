@@ -3,6 +3,7 @@
 #include <vector>
 
 #include "list.h"
+#include "verify.h"
 
 // 19. Remove Nth Node From End of List
 class Solution {

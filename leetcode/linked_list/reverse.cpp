@@ -1,6 +1,7 @@
 #include <doctest/doctest.h>
 
 #include "list.h"
+#include "verify.h"
 
 // 206. Reverse Linked List
 class Solution {

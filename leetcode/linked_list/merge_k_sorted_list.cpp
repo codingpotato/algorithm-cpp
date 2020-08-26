@@ -4,6 +4,7 @@
 #include <vector>
 
 #include "list.h"
+#include "verify.h"
 
 // 23. Merge k Sorted Lists
 class Solution {
