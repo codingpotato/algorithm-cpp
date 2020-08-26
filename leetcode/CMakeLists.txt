@@ -36,6 +36,8 @@ set(LEETCODE_SOURCES
     leetcode/dp/word_break.cpp
     leetcode/hash_table/two_sum.cpp
     leetcode/linked_list/reverse.cpp
+    leetcode/slicing_window/longest_substring.cpp
+    leetcode/slicing_window/minimum_subarray.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
@@ -49,4 +51,5 @@ set(LEETCODE_SOURCES
     leetcode/two_pointers/rotate_list.cpp
     leetcode/two_pointers/squares.cpp
     leetcode/two_pointers/three_sum.cpp
+    leetcode/two_pointers/three_sum_closest.cpp
     PARENT_SCOPE)
