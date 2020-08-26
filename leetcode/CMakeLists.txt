@@ -11,6 +11,7 @@ set(LEETCODE_SOURCES
     leetcode/backtracking/generate_parentheses.cpp
     leetcode/backtracking/permutations.cpp
     leetcode/backtracking/subsets.cpp
+    leetcode/backtracking/subsets_II.cpp
     leetcode/bfs/average_levels.cpp
     leetcode/bfs/level_traversal.cpp
     leetcode/binary_search/binary_search.cpp
@@ -44,6 +45,7 @@ set(LEETCODE_SOURCES
     leetcode/linked_list/merge_k_sorted_list.cpp
     leetcode/linked_list/merge_sorted_list.cpp
     leetcode/linked_list/reverse.cpp
+    leetcode/linked_list/reverse_II.cpp
     leetcode/linked_list/reverse_k_group.cpp
     leetcode/slicing_window/longest_substring.cpp
     leetcode/slicing_window/minimum_subarray.cpp

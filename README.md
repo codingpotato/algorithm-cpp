@@ -24,6 +24,8 @@
 | 80  | Remove Duplicates from Sorted Array II                  | Two Pointers   |
 | 82  | Remove Duplicates from Sorted List II                   | Two Pointers   |
 | 83  | Remove Duplicates from Sorted List                      | Two Pointers   |
+| 90  | Subsets II                                              | Backtracking   |
+| 92  | Reverse Linked List II                                  | Linked List    |
 | 97  | Interleaving String                                     | DP             |
 | 98  | Validate Binary Search Tree                             | DFS            |
 | 100 | Same Tree                                               | DFS            |
