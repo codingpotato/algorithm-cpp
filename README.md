@@ -11,6 +11,7 @@
 | 22  | Generate Parentheses                           | Backtracking   |
 | 23  | Merge k Sorted Lists                           | Linked List    |
 | 25  | Reverse Nodes in k-Group                       | Linked List    |
+| 33  | Search in Rotated Sorted Array                 | Binary Search  |
 | 53  | Maximum Subarray                               | DP             |
 | 61  | Rotate List                                    | Two Pointers   |
 | 70  | Climbing Stairs                                | DP             |

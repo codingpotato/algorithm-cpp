@@ -12,6 +12,7 @@ set(LEETCODE_SOURCES
     leetcode/bfs/level_traversal.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/peak_index.cpp
+    leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
     leetcode/design/LRU_cache.cpp
     leetcode/dfs/diameter.cpp
