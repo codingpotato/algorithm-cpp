@@ -7,6 +7,7 @@ set(LEETCODE_SOURCES
     leetcode/array/product_array.cpp
     leetcode/array/single_number.cpp
     leetcode/backtracking/letter_case_permutation.cpp
+    leetcode/backtracking/generate_parentheses.cpp
     leetcode/bfs/average_levels.cpp
     leetcode/bfs/level_traversal.cpp
     leetcode/binary_search/binary_search.cpp
@@ -35,7 +36,10 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/dp/word_break.cpp
     leetcode/hash_table/two_sum.cpp
+    leetcode/linked_list/merge_k_sorted_list.cpp
+    leetcode/linked_list/merge_sorted_list.cpp
     leetcode/linked_list/reverse.cpp
+    leetcode/linked_list/reverse_k_group.cpp
     leetcode/slicing_window/longest_substring.cpp
     leetcode/slicing_window/minimum_subarray.cpp
     leetcode/trie/longest_word.cpp

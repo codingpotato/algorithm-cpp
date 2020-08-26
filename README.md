@@ -8,6 +8,9 @@
 | 16  | 3Sum Closest                                   | Two Pointers   |
 | 19  | Remove Nth Node From End of List               | Two Pointers   |
 | 21  | Merge Two Sorted Lists                         | Two Pointers   |
+| 22  | Generate Parentheses                           | Backtracking   |
+| 23  | Merge k Sorted Lists                           | Linked List    |
+| 25  | Reverse Nodes in k-Group                       | Linked List    |
 | 53  | Maximum Subarray                               | DP             |
 | 61  | Rotate List                                    | Two Pointers   |
 | 70  | Climbing Stairs                                | DP             |
