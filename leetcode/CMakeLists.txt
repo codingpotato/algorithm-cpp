@@ -3,14 +3,17 @@ set(LEETCODE_SOURCES
     leetcode/array/duplicate_number.cpp
     leetcode/array/find_all_duplicates.cpp
     leetcode/array/find_all_numbers.cpp
+    leetcode/array/first_positive.cpp
     leetcode/array/missing_number.cpp
     leetcode/array/product_array.cpp
     leetcode/array/single_number.cpp
     leetcode/backtracking/letter_case_permutation.cpp
     leetcode/backtracking/generate_parentheses.cpp
+    leetcode/backtracking/permutations.cpp
     leetcode/bfs/average_levels.cpp
     leetcode/bfs/level_traversal.cpp
     leetcode/binary_search/binary_search.cpp
+    leetcode/binary_search/find_first_last.cpp
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
@@ -43,13 +46,13 @@ set(LEETCODE_SOURCES
     leetcode/linked_list/reverse_k_group.cpp
     leetcode/slicing_window/longest_substring.cpp
     leetcode/slicing_window/minimum_subarray.cpp
+    leetcode/sort/merge_interval.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
     leetcode/two_pointers/merge_sorted_list.cpp
     leetcode/two_pointers/middle_linked_list.cpp
     leetcode/two_pointers/palindrome_linked_list.cpp
-    leetcode/two_pointers/
     leetcode/two_pointers/remove_duplicates.cpp
     leetcode/two_pointers/remove_elements.cpp
     leetcode/two_pointers/remove_nth_node.cpp
