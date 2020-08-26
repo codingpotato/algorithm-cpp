@@ -14,6 +14,7 @@ set(LEETCODE_SOURCES
     leetcode/backtracking/subsets_II.cpp
     leetcode/bfs/average_levels.cpp
     leetcode/bfs/level_traversal.cpp
+    leetcode/bfs/level_traversal_II.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/find_first_last.cpp
     leetcode/binary_search/peak_index.cpp
@@ -30,6 +31,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/min_depth.cpp
     leetcode/dfs/pacific_atlantic.cpp
     leetcode/dfs/path_sum.cpp
+    leetcode/dfs/path_sum_II.cpp
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/subtree.cpp
     leetcode/dfs/target_sum.cpp

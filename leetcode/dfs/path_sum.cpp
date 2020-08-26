@@ -1,7 +1,5 @@
 #include <doctest/doctest.h>
 
-#include <iostream>
-
 #include "tree.h"
 
 // 112. Path Sum

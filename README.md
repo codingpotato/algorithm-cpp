@@ -29,10 +29,12 @@
 | 97  | Interleaving String                                     | DP             |
 | 98  | Validate Binary Search Tree                             | DFS            |
 | 100 | Same Tree                                               | DFS            |
+| 102 | Binary Tree Level Order Traversal                       | BFS            |
 | 104 | Maximum Depth of Binary Tree                            | DFS            |
 | 107 | Binary Tree Level Order Traversal II                    | BFS            |
 | 111 | Minimum Depth of Binary Tree                            | DFS            |
 | 112 | Path Sum                                                | DFS            |
+| 113 | Path Sum II                                             | DFS            |
 | 121 | Best Time to Buy and Sell Stock                         | DP             |
 | 136 | Single Number                                           | Array          |
 | 139 | Word Break                                              | DP             |

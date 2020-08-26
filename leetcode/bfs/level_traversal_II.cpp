@@ -5,13 +5,10 @@
 
 #include "tree.h"
 
-// 102. Binary Tree Level Order Traversal
-
-namespace {
-
+// 107. Binary Tree Level Order Traversal II
 class Solution {
  public:
-  std::vector<std::vector<int>> levelOrder(TreeNode* root) {
+  std::vector<std::vector<int>> levelOrderBottom(TreeNode* root) {
     std::vector<std::vector<int>> result;
     if (!root) {
       return result;
@@ -34,15 +31,20 @@ class Solution {
       }
       result.push_back(row);
     }
+    int left = 0;
+    int right = result.size() - 1;
+    while (left < right) {
+      std::swap(result[left++], result[right--]);
+    }
     return result;
   }
 };
 
-}  // namespace
-
 TEST_CASE("Binary tree level order traversal") {
   Tree tree{"3, 9, 20, null, null, 15, 7"};
   Solution s;
-  REQUIRE_EQ(s.levelOrder(tree.root),
-             std::vector<std::vector<int>>{{3}, {9, 20}, {15, 7}});
+  REQUIRE_EQ(s.levelOrderBottom(tree.root),
+             std::vector<std::vector<int>>{std::vector<int>{15, 7},
+                                           std::vector<int>{9, 20},
+                                           std::vector<int>{3}});
 }
