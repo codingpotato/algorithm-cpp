@@ -17,8 +17,10 @@
 | 46  | Permutations                                            | Backtracking   |
 | 53  | Maximum Subarray                                        | DP             |
 | 56  | Merge Intervals                                         | Sort           |
+| 57  | Insert Interval                                         | Sort           |
 | 61  | Rotate List                                             | Two Pointers   |
 | 70  | Climbing Stairs                                         | DP             |
+| 78  | Subsets                                                 | Backtracking   |
 | 83  | Remove Duplicates from Sorted List                      | Two Pointers   |
 | 97  | Interleaving String                                     | DP             |
 | 98  | Validate Binary Search Tree                             | DFS            |

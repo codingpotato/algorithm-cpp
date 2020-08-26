@@ -35,12 +35,8 @@ class Solution {
 
 TEST_CASE("Permutations") {
   Solution s;
-  REQUIRE(is_vector_equal_without_order(s.permute({1, 2, 3}), Solution::Result{
-                                                                  {1, 2, 3},
-                                                                  {1, 3, 2},
-                                                                  {2, 1, 3},
-                                                                  {2, 3, 1},
-                                                                  {3, 1, 2},
-                                                                  {3, 2, 1},
-                                                              }));
+  REQUIRE(is_vector_equal_without_order(
+      s.permute({1, 2, 3}),
+      Solution::Result{
+          {1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2}, {3, 2, 1}}));
 }
