@@ -16,8 +16,8 @@
 | 41   | First Missing Positive                                  | Array          |
 | 46   | Permutations                                            | Backtracking   |
 | 53   | Maximum Subarray                                        | DP             |
-| 56   | Merge Intervals                                         | Sort           |
-| 57   | Insert Interval                                         | Sort           |
+| 56   | Merge Intervals                                         | interval       |
+| 57   | Insert Interval                                         | interval       |
 | 61   | Rotate List                                             | Two Pointers   |
 | 70   | Climbing Stairs                                         | DP             |
 | 78   | Subsets                                                 | Backtracking   |
@@ -70,5 +70,6 @@
 | 852  | Peak Index in a Mountain Array                          | Binary Search  |
 | 876  | Middle of the Linked List                               | Two Pointers   |
 | 977  | Squares of a Sorted Array                               | Two Pointers   |
+| 986  | Interval List Intersections                             | Interval       |
 | 988  | Smallest String Starting From Leaf                      | DFS            |
 | 1004 | Max Consecutive Ones III                                | Sliding Window |

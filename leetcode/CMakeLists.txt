@@ -45,6 +45,9 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/dp/word_break.cpp
     leetcode/hash_table/two_sum.cpp
+    leetcode/interval/insert_interval.cpp
+    leetcode/interval/intersection.cpp
+    leetcode/interval/merge_intervals.cpp
     leetcode/linked_list/merge_k_sorted_list.cpp
     leetcode/linked_list/merge_sorted_list.cpp
     leetcode/linked_list/reverse.cpp
@@ -53,8 +56,6 @@ set(LEETCODE_SOURCES
     leetcode/sliding_window/longest_substring.cpp
     leetcode/sliding_window/max_consecutive_one_III.cpp
     leetcode/sliding_window/minimum_subarray.cpp
-    leetcode/sort/insert_interval.cpp
-    leetcode/sort/merge_intervals.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
