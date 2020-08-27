@@ -66,9 +66,11 @@
 | 720  | Longest Word in Dictionary                              | Trie           |
 | 744  | Find Smallest Letter Greater Than Target                | Binary Search  |
 | 784  | Letter Case Permutation                                 | BackTracking   |
+| 787  | Cheapest Flights Within K Stops                         | DFS            |
 | 844  | Backspace String Compare                                | Tow Pointers   |
 | 852  | Peak Index in a Mountain Array                          | Binary Search  |
 | 876  | Middle of the Linked List                               | Two Pointers   |
+| 904  | Fruit Into Baskets                                      | Sliding Window |
 | 977  | Squares of a Sorted Array                               | Two Pointers   |
 | 986  | Interval List Intersections                             | Interval       |
 | 988  | Smallest String Starting From Leaf                      | DFS            |

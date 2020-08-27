@@ -13,6 +13,7 @@ set(LEETCODE_SOURCES
     leetcode/backtracking/subsets.cpp
     leetcode/backtracking/subsets_II.cpp
     leetcode/bfs/average_levels.cpp
+    leetcode/bfs/cheapest_flights.cpp
     leetcode/bfs/level_traversal.cpp
     leetcode/bfs/level_traversal_II.cpp
     leetcode/binary_search/binary_search.cpp
@@ -53,6 +54,7 @@ set(LEETCODE_SOURCES
     leetcode/linked_list/reverse.cpp
     leetcode/linked_list/reverse_II.cpp
     leetcode/linked_list/reverse_k_group.cpp
+    leetcode/sliding_window/fruit_baskets.cpp
     leetcode/sliding_window/longest_substring.cpp
     leetcode/sliding_window/max_consecutive_one_III.cpp
     leetcode/sliding_window/minimum_subarray.cpp
