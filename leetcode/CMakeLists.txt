@@ -33,6 +33,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/path_sum.cpp
     leetcode/dfs/path_sum_II.cpp
     leetcode/dfs/same_tree.cpp
+    leetcode/dfs/smallest_string.cpp
     leetcode/dfs/subtree.cpp
     leetcode/dfs/target_sum.cpp
     leetcode/dfs/validate_bst.cpp
@@ -49,8 +50,9 @@ set(LEETCODE_SOURCES
     leetcode/linked_list/reverse.cpp
     leetcode/linked_list/reverse_II.cpp
     leetcode/linked_list/reverse_k_group.cpp
-    leetcode/slicing_window/longest_substring.cpp
-    leetcode/slicing_window/minimum_subarray.cpp
+    leetcode/sliding_window/longest_substring.cpp
+    leetcode/sliding_window/max_consecutive_one_III.cpp
+    leetcode/sliding_window/minimum_subarray.cpp
     leetcode/sort/insert_interval.cpp
     leetcode/sort/merge_intervals.cpp
     leetcode/trie/longest_word.cpp
