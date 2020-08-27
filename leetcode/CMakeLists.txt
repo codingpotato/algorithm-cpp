@@ -46,10 +46,11 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/dp/word_break.cpp
     leetcode/hash_table/two_sum.cpp
+    leetcode/heap/k_largest.cpp
+    leetcode/heap/merge_k_sorted_list.cpp
     leetcode/interval/insert_interval.cpp
     leetcode/interval/intersection.cpp
     leetcode/interval/merge_intervals.cpp
-    leetcode/linked_list/merge_k_sorted_list.cpp
     leetcode/linked_list/merge_sorted_list.cpp
     leetcode/linked_list/reverse.cpp
     leetcode/linked_list/reverse_II.cpp

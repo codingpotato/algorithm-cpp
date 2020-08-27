@@ -9,7 +9,7 @@
 | 19   | Remove Nth Node From End of List                        | Two Pointers   |
 | 21   | Merge Two Sorted Lists                                  | Two Pointers   |
 | 22   | Generate Parentheses                                    | Backtracking   |
-| 23   | Merge k Sorted Lists                                    | Linked List    |
+| 23   | Merge k Sorted Lists                                    | Heap           |
 | 25   | Reverse Nodes in k-Group                                | Linked List    |
 | 33   | Search in Rotated Sorted Array                          | Binary Search  |
 | 34   | Find First and Last Position of Element in Sorted Array | Binary Search  |
@@ -62,6 +62,7 @@
 | 617  | Merge Two Binary Trees                                  | DFS            |
 | 637  | Average of Levels in Binary Tree                        | BFS            |
 | 654  | Maximum Binary Tree                                     | Binary Tree    |
+| 703  | Kth Largest Element in a Stream                         | Heap           |
 | 704  | Binary Search                                           | DFS            |
 | 720  | Longest Word in Dictionary                              | Trie           |
 | 744  | Find Smallest Letter Greater Than Target                | Binary Search  |
