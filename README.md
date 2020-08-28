@@ -4,6 +4,7 @@
 | ---- | ------------------------------------------------------- | -------------- |
 | 1    | Two Sum                                                 | Hash table     |
 | 3    | Longest Substring Without Repeating Characters          | Sliding Window |
+| 4    | Median of Two Sorted Arrays                             | Binary Search  |
 | 15   | 3Sum                                                    | Two Pointers   |
 | 16   | 3Sum Closest                                            | Two Pointers   |
 | 19   | Remove Nth Node From End of List                        | Two Pointers   |
@@ -19,7 +20,9 @@
 | 56   | Merge Intervals                                         | interval       |
 | 57   | Insert Interval                                         | interval       |
 | 61   | Rotate List                                             | Two Pointers   |
+| 63   | Unique Paths II                                         | DP             |
 | 70   | Climbing Stairs                                         | DP             |
+| 72   | Edit Distance                                           | DP             |
 | 78   | Subsets                                                 | Backtracking   |
 | 80   | Remove Duplicates from Sorted Array II                  | Two Pointers   |
 | 82   | Remove Duplicates from Sorted List II                   | Two Pointers   |
@@ -65,6 +68,7 @@
 | 703  | Kth Largest Element in a Stream                         | Heap           |
 | 704  | Binary Search                                           | DFS            |
 | 720  | Longest Word in Dictionary                              | Trie           |
+| 733  | Flood Fill                                              | DFS            |
 | 744  | Find Smallest Letter Greater Than Target                | Binary Search  |
 | 784  | Letter Case Permutation                                 | BackTracking   |
 | 787  | Cheapest Flights Within K Stops                         | DFS            |

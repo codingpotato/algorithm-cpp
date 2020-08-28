@@ -18,11 +18,13 @@ set(LEETCODE_SOURCES
     leetcode/bfs/level_traversal_II.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/find_first_last.cpp
+    leetcode/binary_search/median.cpp
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
     leetcode/design/LRU_cache.cpp
     leetcode/dfs/diameter.cpp
+    leetcode/dfs/flood_fill.cpp
     leetcode/dfs/invert.cpp
     leetcode/dfs/lowest_common.cpp
     leetcode/dfs/lowest_common_ancestor.cpp
@@ -39,11 +41,13 @@ set(LEETCODE_SOURCES
     leetcode/dfs/target_sum.cpp
     leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
+    leetcode/dp/edit_distance.cpp
     leetcode/dp/house_robber.cpp
     leetcode/dp/interleaving_string.cpp
     leetcode/dp/max_subarray.cpp
     leetcode/dp/range_sum_query.cpp
     leetcode/dp/stock_once.cpp
+    leetcode/dp/unique_path_II.cpp
     leetcode/dp/word_break.cpp
     leetcode/hash_table/two_sum.cpp
     leetcode/heap/k_largest.cpp
