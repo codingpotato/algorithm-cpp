@@ -23,6 +23,7 @@
 | 63   | Unique Paths II                                         | DP             |
 | 70   | Climbing Stairs                                         | DP             |
 | 72   | Edit Distance                                           | DP             |
+| 76   | Minimum Window Substring                                | Sliding Window |
 | 78   | Subsets                                                 | Backtracking   |
 | 80   | Remove Duplicates from Sorted Array II                  | Two Pointers   |
 | 82   | Remove Duplicates from Sorted List II                   | Two Pointers   |
