@@ -59,6 +59,7 @@
 | 238  | Product of Array Except Self                            | Array          |
 | 268  | Missing Number                                          | Array          |
 | 287  | Find the Duplicate Number                               | Array          |
+| 295  | Find Median from Data Stream                            | Heap           |
 | 303  | Range Sum Query - Immutable                             | DP             |
 | 417  | Pacific Atlantic Water Flow                             | DFS            |
 | 442  | Find All Duplicates in an Array                         | Array          |

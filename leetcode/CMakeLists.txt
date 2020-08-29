@@ -52,6 +52,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/word_break.cpp
     leetcode/hash_table/subarray_sum.cpp
     leetcode/hash_table/two_sum.cpp
+    leetcode/heap/find_median.cpp
     leetcode/heap/k_largest.cpp
     leetcode/heap/merge_k_sorted_list.cpp
     leetcode/interval/insert_interval.cpp
