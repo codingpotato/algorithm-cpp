@@ -66,6 +66,7 @@ set(LEETCODE_SOURCES
     leetcode/sliding_window/minimum_window.cpp
     leetcode/stack/largest_ractangle.cpp
     leetcode/stack/longest_parentheses.cpp
+    leetcode/stack/maximal_rectangle.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
