@@ -23,6 +23,7 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
     leetcode/design/LRU_cache.cpp
+    leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/flood_fill.cpp
     leetcode/dfs/invert.cpp
@@ -49,6 +50,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/dp/unique_path_II.cpp
     leetcode/dp/word_break.cpp
+    leetcode/hash_table/subarray_sum.cpp
     leetcode/hash_table/two_sum.cpp
     leetcode/heap/k_largest.cpp
     leetcode/heap/merge_k_sorted_list.cpp

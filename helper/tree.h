@@ -76,6 +76,12 @@ struct Tree {
   TreeNode *root = nullptr;
 };
 
+inline bool is_same(const TreeNode *root1, const TreeNode *root2) {
+  return (!root1 && !root2) || (root1 && root2 && root1->val == root2->val &&
+                                is_same(root1->left, root2->left) &&
+                                is_same(root1->right, root2->right));
+}
+
 TEST_CASE("split") {
   std::string string{"1, 2, 3"};
   REQUIRE_EQ(split(string), std::vector<std::string>{"1", "2", "3"});

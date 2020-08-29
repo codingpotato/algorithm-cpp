@@ -5,6 +5,7 @@
 #include <vector>
 
 #include "list.h"
+#include "tree.h"
 
 template <typename T>
 inline bool is_vector_equal_without_order(const std::vector<T>& lhs,

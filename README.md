@@ -30,6 +30,7 @@
 | 82   | Remove Duplicates from Sorted List II                   | Two Pointers   |
 | 83   | Remove Duplicates from Sorted List                      | Two Pointers   |
 | 84   | Largest Rectangle in Histogram                          | Stack          |
+| 85   | Maximal Rectangle                                       | Stack          |
 | 90   | Subsets II                                              | Backtracking   |
 | 92   | Reverse Linked List II                                  | Linked List    |
 | 97   | Interleaving String                                     | DP             |
@@ -64,6 +65,7 @@
 | 448  | Find All Numbers Disappeared in an Array                | Array          |
 | 494  | Target Sum                                              | DFS            |
 | 543  | Diameter of Binary Tree                                 | DFS            |
+| 560  | Subarray Sum Equals K                                   | Hash Table     |
 | 572  | Subtree of Another Tree                                 | DFS            |
 | 617  | Merge Two Binary Trees                                  | DFS            |
 | 637  | Average of Levels in Binary Tree                        | BFS            |
@@ -83,3 +85,4 @@
 | 986  | Interval List Intersections                             | Interval       |
 | 988  | Smallest String Starting From Leaf                      | DFS            |
 | 1004 | Max Consecutive Ones III                                | Sliding Window |
+| 1110 | Delete Nodes And Return Forest                          | DFS            |
