@@ -64,6 +64,8 @@ set(LEETCODE_SOURCES
     leetcode/sliding_window/max_consecutive_one_III.cpp
     leetcode/sliding_window/minimum_subarray.cpp
     leetcode/sliding_window/minimum_window.cpp
+    leetcode/stack/largest_ractangle.cpp
+    leetcode/stack/longest_parentheses.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp

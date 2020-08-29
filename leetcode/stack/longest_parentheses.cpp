@@ -3,16 +3,16 @@
 #include <stack>
 #include <string>
 
-int longest_parentheses(const std::string& str) {
+// 32. Longest Valid Parentheses
+int longest_parentheses(const std::string& s) {
   std::stack<int> index_stack;
   std::stack<char> stack;
   auto max = 0;
   index_stack.push(-1);
-  for (auto i = 0; i < static_cast<int>(str.size()); ++i) {
-    if (stack.empty() || str[i] == '(' ||
-        (str[i] == ')' && stack.top() != '(')) {
+  for (auto i = 0; i < static_cast<int>(s.size()); ++i) {
+    if (stack.empty() || s[i] == '(' || (s[i] == ')' && stack.top() != '(')) {
       index_stack.push(i);
-      stack.push(str[i]);
+      stack.push(s[i]);
     } else {
       index_stack.pop();
       stack.pop();

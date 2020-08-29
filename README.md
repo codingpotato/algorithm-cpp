@@ -12,6 +12,7 @@
 | 22   | Generate Parentheses                                    | Backtracking   |
 | 23   | Merge k Sorted Lists                                    | Heap           |
 | 25   | Reverse Nodes in k-Group                                | Linked List    |
+| 32   | Longest Valid Parentheses                               | Stack          |
 | 33   | Search in Rotated Sorted Array                          | Binary Search  |
 | 34   | Find First and Last Position of Element in Sorted Array | Binary Search  |
 | 41   | First Missing Positive                                  | Array          |
@@ -28,6 +29,7 @@
 | 80   | Remove Duplicates from Sorted Array II                  | Two Pointers   |
 | 82   | Remove Duplicates from Sorted List II                   | Two Pointers   |
 | 83   | Remove Duplicates from Sorted List                      | Two Pointers   |
+| 84   | Largest Rectangle in Histogram                          | Stack          |
 | 90   | Subsets II                                              | Backtracking   |
 | 92   | Reverse Linked List II                                  | Linked List    |
 | 97   | Interleaving String                                     | DP             |
