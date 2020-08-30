@@ -16,6 +16,7 @@ set(LEETCODE_SOURCES
     leetcode/bfs/cheapest_flights.cpp
     leetcode/bfs/level_traversal.cpp
     leetcode/bfs/level_traversal_II.cpp
+    leetcode/bfs/maximun_width.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/find_first_last.cpp
     leetcode/binary_search/median.cpp

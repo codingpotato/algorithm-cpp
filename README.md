@@ -73,6 +73,7 @@
 | 617  | Merge Two Binary Trees                                  | DFS            |
 | 637  | Average of Levels in Binary Tree                        | BFS            |
 | 654  | Maximum Binary Tree                                     | Binary Tree    |
+| 662  | Maximum Width of Binary Tree                            | BFS            |
 | 703  | Kth Largest Element in a Stream                         | Heap           |
 | 704  | Binary Search                                           | DFS            |
 | 720  | Longest Word in Dictionary                              | Trie           |
