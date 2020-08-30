@@ -23,6 +23,7 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
     leetcode/design/LRU_cache.cpp
+    leetcode/dfs/all_nodes_distance.cpp
     leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/flood_fill.cpp

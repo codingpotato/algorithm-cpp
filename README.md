@@ -81,6 +81,7 @@
 | 787  | Cheapest Flights Within K Stops                         | DFS            |
 | 844  | Backspace String Compare                                | Tow Pointers   |
 | 852  | Peak Index in a Mountain Array                          | Binary Search  |
+| 863  | All Nodes Distance K in Binary Tree                     | DFS            |
 | 876  | Middle of the Linked List                               | Two Pointers   |
 | 904  | Fruit Into Baskets                                      | Sliding Window |
 | 977  | Squares of a Sorted Array                               | Two Pointers   |

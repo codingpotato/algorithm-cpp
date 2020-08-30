@@ -39,12 +39,12 @@ class Solution {
 TEST_CASE("Binary Tree Right Side View") {
   Solution s;
 
-  SUBCASE("1") {
+  SUBCASE("Case 1") {
     Tree tree{"1, 2, 3, null, 5, null, 4"};
     REQUIRE_EQ(s.rightSideView(tree.root), std::vector<int>{1, 3, 4});
   }
 
-  SUBCASE("2") {
+  SUBCASE("Case 2") {
     Tree tree{"1, 2"};
     REQUIRE_EQ(s.rightSideView(tree.root), std::vector<int>{1, 2});
   }
