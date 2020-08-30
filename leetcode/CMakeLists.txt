@@ -27,6 +27,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/all_nodes_distance.cpp
     leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
+    leetcode/dfs/find_mode.cpp
     leetcode/dfs/flood_fill.cpp
     leetcode/dfs/invert.cpp
     leetcode/dfs/lowest_common.cpp

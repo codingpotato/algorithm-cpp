@@ -67,6 +67,7 @@
 | 442  | Find All Duplicates in an Array                         | Array          |
 | 448  | Find All Numbers Disappeared in an Array                | Array          |
 | 494  | Target Sum                                              | DFS            |
+| 501  | Find Mode in Binary Search Tree                         | DFS            |
 | 543  | Diameter of Binary Tree                                 | DFS            |
 | 560  | Subarray Sum Equals K                                   | Hash Table     |
 | 572  | Subtree of Another Tree                                 | DFS            |
