@@ -48,6 +48,7 @@
 | 141  | Linked List Cycle                                       | Two Pointers   |
 | 146  | LRU Cache                                               | Design         |
 | 198  | House Robber                                            | DP             |
+| 199  | Binary Tree Right Side View                             | DFS            |
 | 203  | Remove Linked List Elements                             | Two Pointers   |
 | 206  | Reverse Linked List                                     | Linked List    |
 | 209  | Minimum Size Subarray Sum                               | Sliding Window |
