@@ -54,23 +54,46 @@ struct Tree {
     while (index < values.size()) {
       auto node = queue.front();
       queue.pop();
-      if (node) {
-        if (values[index] != "null") {
-          node->left = new TreeNode{std::stoi(values[index])};
-        }
+      if (values[index] != "null") {
+        node->left = new TreeNode{std::stoi(values[index])};
         queue.push(node->left);
-        ++index;
-        if (index < values.size()) {
-          if (values[index] != "null") {
-            node->right = new TreeNode{std::stoi(values[index])};
-          }
+      }
+      ++index;
+      if (index < values.size()) {
+        if (values[index] != "null") {
+          node->right = new TreeNode{std::stoi(values[index])};
           queue.push(node->right);
-          ++index;
         }
-      } else {
-        index += 2;
+        ++index;
       }
     }
+  }
+
+  std::string serialize() {
+    std::string result;
+    std::queue<TreeNode *> queue;
+    if (root) queue.push(root);
+    while (!queue.empty()) {
+      auto node = queue.front();
+      queue.pop();
+      if (node) {
+        result += std::to_string(node->val) + ",";
+        if (node->left || node->right) {
+          queue.push(node->left);
+          queue.push(node->right);
+        }
+      } else {
+        result += "null,";
+      }
+    }
+    if (!result.empty()) {
+      result.pop_back();
+      auto pos = result.rfind("null");
+      if (pos != std::string::npos && pos + 4 == result.size()) {
+        result.erase(pos - 1);
+      }
+    }
+    return result;
   }
 
   TreeNode *root = nullptr;
@@ -88,10 +111,25 @@ TEST_CASE("split") {
 }
 
 TEST_CASE("Tree constructor") {
-  Tree tree{"1, 2, 3"};
-  REQUIRE_EQ(tree.root->val, 1);
-  REQUIRE_EQ(tree.root->left->val, 2);
-  REQUIRE_EQ(tree.root->right->val, 3);
+  SUBCASE("Case 1") {
+    Tree tree{""};
+    REQUIRE_EQ(tree.serialize(), "");
+  }
+
+  SUBCASE("Case 2") {
+    Tree tree{"1, 2, 3"};
+    REQUIRE_EQ(tree.serialize(), "1,2,3");
+  }
+
+  SUBCASE("Case 3") {
+    Tree tree{"1, null, 2, 3"};
+    REQUIRE_EQ(tree.serialize(), "1,null,2,3");
+  }
+
+  SUBCASE("Case 4") {
+    Tree tree{"5, 4, 7, 3, null, 2, null, -1, null, 9"};
+    REQUIRE_EQ(tree.serialize(), "5,4,7,3,null,2,null,-1,null,9");
+  }
 }
 
 #endif  // __TREE__H__

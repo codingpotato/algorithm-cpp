@@ -55,8 +55,7 @@ TEST_CASE("Maximum Width of Binary Tree") {
   }
 
   SUBCASE("Case 4") {
-    Tree tree{
-        "1, 3, 2, 5, null, null, 9, 6, null, null, null, null, null, null, 7"};
+    Tree tree{"1, 3, 2, 5, null, null, 9, 6, null, null, 7"};
     REQUIRE_EQ(s.widthOfBinaryTree(tree.root), 8);
   }
 
@@ -80,6 +79,6 @@ TEST_CASE("Maximum Width of Binary Tree") {
         "null, null, 0, 0, null, null, 0, 0, null, null, 0, 0, null, null, 0, "
         "0, null, null, 0, 0, null, null, 0, 0, null, null, 0, 0, null, null, "
         "0, 0, null, null, 0, 0, null, null, 0, 0, null, null, 0, 0, null"};
-    REQUIRE_EQ(s.widthOfBinaryTree(tree.root), 1431655766);
+    REQUIRE_EQ(s.widthOfBinaryTree(tree.root), 2);
   }
 }

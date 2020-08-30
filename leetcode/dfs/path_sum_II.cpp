@@ -47,7 +47,7 @@ class Solution {
 
 TEST_CASE("Path Sum II") {
   Solution s;
-  Tree tree{"5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, 5, 1"};
+  Tree tree{"5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1"};
   REQUIRE_EQ(s.pathSum(tree.root, 22),
              Solution::Result{{5, 4, 11, 2}, {5, 8, 4, 5}});
 }
