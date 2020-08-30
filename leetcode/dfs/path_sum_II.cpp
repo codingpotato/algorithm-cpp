@@ -45,7 +45,7 @@ class Solution {
 
 }  // namespace
 
-TEST_CASE("Path sum") {
+TEST_CASE("Path Sum II") {
   Solution s;
   Tree tree{"5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, 5, 1"};
   REQUIRE_EQ(s.pathSum(tree.root, 22),

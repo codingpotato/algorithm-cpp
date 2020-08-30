@@ -63,6 +63,7 @@
 | 295  | Find Median from Data Stream                            | Heap           |
 | 303  | Range Sum Query - Immutable                             | DP             |
 | 417  | Pacific Atlantic Water Flow                             | DFS            |
+| 437  | Path Sum III                                            | DFS            |
 | 442  | Find All Duplicates in an Array                         | Array          |
 | 448  | Find All Numbers Disappeared in an Array                | Array          |
 | 494  | Target Sum                                              | DFS            |

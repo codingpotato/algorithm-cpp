@@ -37,6 +37,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/pacific_atlantic.cpp
     leetcode/dfs/path_sum.cpp
     leetcode/dfs/path_sum_II.cpp
+    leetcode/dfs/path_sum_III.cpp
     leetcode/dfs/right_side_view.cpp
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/smallest_string.cpp
