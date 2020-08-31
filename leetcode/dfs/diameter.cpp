@@ -9,8 +9,8 @@
 class Solution {
  public:
   int diameterOfBinaryTree(TreeNode* root) {
-    auto [diameter, max_to_leaf] = diameter_node(root);
-    return diameter - 1;
+    auto dn = diameter_node(root);
+    return dn.first - 1;
   }
 
  private:

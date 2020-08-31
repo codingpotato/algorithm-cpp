@@ -17,12 +17,14 @@ set(LEETCODE_SOURCES
     leetcode/bfs/level_traversal.cpp
     leetcode/bfs/level_traversal_II.cpp
     leetcode/bfs/maximun_width.cpp
+    leetcode/bfs/shortest_path.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/find_first_last.cpp
     leetcode/binary_search/median.cpp
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
+    leetcode/design/circular_queue.cpp
     leetcode/design/LRU_cache.cpp
     leetcode/dfs/all_nodes_distance.cpp
     leetcode/dfs/delete_nodes.cpp

@@ -22,9 +22,10 @@ class Solution {
     for (auto i = 0; i <= size; ++i) {
       auto next_height = i < size ? heights[i] : 0;
       while (stack.size() > 1 && next_height <= stack.top().height) {
-        auto [index, height] = stack.top();
+        auto info = stack.top();
         stack.pop();
-        max_area = std::max(max_area, height * (i - stack.top().index - 1));
+        max_area =
+            std::max(max_area, info.height * (i - stack.top().index - 1));
       }
       stack.emplace(i, next_height);
     }
