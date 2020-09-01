@@ -57,6 +57,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/stock_once.cpp
     leetcode/dp/unique_path_II.cpp
     leetcode/dp/word_break.cpp
+    leetcode/hash_table/contains_duplicate_II.cpp
     leetcode/hash_table/subarray_sum.cpp
     leetcode/hash_table/two_sum.cpp
     leetcode/heap/find_median.cpp
@@ -82,7 +83,6 @@ set(LEETCODE_SOURCES
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
-    leetcode/two_pointers/merge_sorted_list.cpp
     leetcode/two_pointers/middle_linked_list.cpp
     leetcode/two_pointers/palindrome_linked_list.cpp
     leetcode/two_pointers/remove_duplicates_from_list.cpp

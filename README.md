@@ -54,6 +54,7 @@
 | 206  | Reverse Linked List                                     | Linked List    |
 | 209  | Minimum Size Subarray Sum                               | Sliding Window |
 | 217  | Contains Duplicate                                      | Array          |
+| 219  | Contains Duplicate II                                   | Hash Table     |
 | 226  | Invert Binary Tree                                      | DFS            |
 | 234  | Palindrome Linked List                                  | Two Pointers   |
 | 235  | Lowest Common Ancestor of a Binary Search Tree          | DFS            |
