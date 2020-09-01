@@ -36,4 +36,28 @@ struct List {
   ListNode *head = nullptr;
 };
 
+inline bool is_same(const ListNode *lhs, const ListNode *rhs) {
+  while (lhs && rhs) {
+    if (lhs->val != rhs->val) return false;
+    lhs = lhs->next;
+    rhs = rhs->next;
+  }
+  return lhs == rhs;
+}
+
+inline bool is_same(const ListNode *lhs, const std::vector<int> &rhs) {
+  size_t index = 0;
+  while (lhs && index < rhs.size()) {
+    if (lhs->val != rhs[index]) return false;
+    lhs = lhs->next;
+    ++index;
+  }
+  return !lhs && index == rhs.size();
+}
+
+TEST_CASE("is same as vector") {
+  List list{1, 2, 3, 4, 5};
+  REQUIRE(is_same(list.head, std::vector<int>{1, 2, 3, 4, 5}));
+}
+
 #endif  // __LIST__H__

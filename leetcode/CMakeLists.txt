@@ -66,6 +66,7 @@ set(LEETCODE_SOURCES
     leetcode/interval/intersection.cpp
     leetcode/interval/merge_intervals.cpp
     leetcode/linked_list/merge_sorted_list.cpp
+    leetcode/linked_list/partition_list.cpp
     leetcode/linked_list/reverse.cpp
     leetcode/linked_list/reverse_II.cpp
     leetcode/linked_list/reverse_k_group.cpp
@@ -77,6 +78,7 @@ set(LEETCODE_SOURCES
     leetcode/stack/largest_ractangle.cpp
     leetcode/stack/longest_parentheses.cpp
     leetcode/stack/maximal_rectangle.cpp
+    leetcode/stack/next_greater.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp

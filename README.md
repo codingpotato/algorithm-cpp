@@ -31,6 +31,7 @@
 | 83   | Remove Duplicates from Sorted List                      | Two Pointers   |
 | 84   | Largest Rectangle in Histogram                          | Stack          |
 | 85   | Maximal Rectangle                                       | Stack          |
+| 86   | Partition List                                          | Linked List    |
 | 90   | Subsets II                                              | Backtracking   |
 | 92   | Reverse Linked List II                                  | Linked List    |
 | 97   | Interleaving String                                     | DP             |
@@ -72,6 +73,7 @@
 | 560  | Subarray Sum Equals K                                   | Hash Table     |
 | 572  | Subtree of Another Tree                                 | DFS            |
 | 617  | Merge Two Binary Trees                                  | DFS            |
+| 622  | Design Circular Queue                                   | Design         |
 | 637  | Average of Levels in Binary Tree                        | BFS            |
 | 654  | Maximum Binary Tree                                     | Binary Tree    |
 | 662  | Maximum Width of Binary Tree                            | BFS            |
@@ -91,4 +93,6 @@
 | 986  | Interval List Intersections                             | Interval       |
 | 988  | Smallest String Starting From Leaf                      | DFS            |
 | 1004 | Max Consecutive Ones III                                | Sliding Window |
+| 1019 | Next Greater Node In Linked List                        | Stack          |
 | 1110 | Delete Nodes And Return Forest                          | DFS            |
+| 1129 | Shortest Path with Alternating Colors                   | BFS            |
