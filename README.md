@@ -43,6 +43,7 @@
 | 111  | Minimum Depth of Binary Tree                            | DFS            |
 | 112  | Path Sum                                                | DFS            |
 | 113  | Path Sum II                                             | DFS            |
+| 114  | Flatten Binary Tree to Linked List                      | DFS            |
 | 121  | Best Time to Buy and Sell Stock                         | DP             |
 | 136  | Single Number                                           | Array          |
 | 139  | Word Break                                              | DP             |
@@ -97,3 +98,4 @@
 | 1019 | Next Greater Node In Linked List                        | Stack          |
 | 1110 | Delete Nodes And Return Forest                          | DFS            |
 | 1129 | Shortest Path with Alternating Colors                   | BFS            |
+| 1361 | Validate Binary Tree Nodes                              | BFS            |

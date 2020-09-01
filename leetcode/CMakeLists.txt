@@ -18,6 +18,7 @@ set(LEETCODE_SOURCES
     leetcode/bfs/level_traversal_II.cpp
     leetcode/bfs/maximun_width.cpp
     leetcode/bfs/shortest_path.cpp
+    leetcode/bfs/validate_binary_tree.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/find_first_last.cpp
     leetcode/binary_search/median.cpp
@@ -30,6 +31,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/find_mode.cpp
+    leetcode/dfs/flatten_binary_tree.cpp
     leetcode/dfs/flood_fill.cpp
     leetcode/dfs/invert.cpp
     leetcode/dfs/lowest_common.cpp
