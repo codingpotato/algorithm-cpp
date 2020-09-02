@@ -72,6 +72,7 @@
 | 461  | Hamming Distance                                        | Bit Manipulation |
 | 494  | Target Sum                                              | DFS              |
 | 501  | Find Mode in Binary Search Tree                         | DFS              |
+| 524  | Longest Word in Dictionary through Deleting             | Two Pointers     |
 | 543  | Diameter of Binary Tree                                 | DFS              |
 | 560  | Subarray Sum Equals K                                   | Hash Table       |
 | 565  | Array Nesting                                           | Array            |
