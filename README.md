@@ -94,6 +94,7 @@
 | 863  | All Nodes Distance K in Binary Tree                     | DFS              |
 | 876  | Middle of the Linked List                               | Two Pointers     |
 | 904  | Fruit Into Baskets                                      | Sliding Window   |
+| 938  | Range Sum of BST                                        | DFS              |
 | 977  | Squares of a Sorted Array                               | Two Pointers     |
 | 986  | Interval List Intersections                             | Interval         |
 | 988  | Smallest String Starting From Leaf                      | DFS              |
