@@ -1,4 +1,5 @@
 set(LEETCODE_SOURCES
+    leetcode/array/array_nesting.cpp
     leetcode/array/contains_duplicate.cpp
     leetcode/array/duplicate_number.cpp
     leetcode/array/find_all_duplicates.cpp
@@ -25,6 +26,7 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
+    leetcode/bit_manipulation/hamming_distance.cpp
     leetcode/design/circular_queue.cpp
     leetcode/design/LRU_cache.cpp
     leetcode/dfs/all_nodes_distance.cpp
