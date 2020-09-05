@@ -27,14 +27,18 @@ set(LEETCODE_SOURCES
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
     leetcode/bit_manipulation/hamming_distance.cpp
+    leetcode/design/all_o1.cpp
     leetcode/design/circular_queue.cpp
+    leetcode/design/insert_delete.cpp
     leetcode/design/LRU_cache.cpp
     leetcode/dfs/all_nodes_distance.cpp
+    leetcode/dfs/balanced.cpp
     leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/find_mode.cpp
     leetcode/dfs/flatten_binary_tree.cpp
     leetcode/dfs/flood_fill.cpp
+    leetcode/dfs/graph_bipaties.cpp
     leetcode/dfs/invert.cpp
     leetcode/dfs/lowest_common.cpp
     leetcode/dfs/lowest_common_ancestor.cpp
@@ -51,6 +55,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/smallest_string.cpp
     leetcode/dfs/subtree.cpp
+    leetcode/dfs/symmetric_tree.cpp
     leetcode/dfs/target_sum.cpp
     leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
@@ -85,6 +90,7 @@ set(LEETCODE_SOURCES
     leetcode/stack/longest_parentheses.cpp
     leetcode/stack/maximal_rectangle.cpp
     leetcode/stack/next_greater.cpp
+    leetcode/topo_sort/course_schedule_II.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp

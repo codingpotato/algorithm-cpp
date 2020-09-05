@@ -37,9 +37,11 @@
 | 97   | Interleaving String                                     | DP               |
 | 98   | Validate Binary Search Tree                             | DFS              |
 | 100  | Same Tree                                               | DFS              |
+| 101  | Symmetric Tree                                          | DFS              |
 | 102  | Binary Tree Level Order Traversal                       | BFS              |
 | 104  | Maximum Depth of Binary Tree                            | DFS              |
 | 107  | Binary Tree Level Order Traversal II                    | BFS              |
+| 110  | Balanced Binary Tree                                    | DFS              |
 | 111  | Minimum Depth of Binary Tree                            | DFS              |
 | 112  | Path Sum                                                | DFS              |
 | 113  | Path Sum II                                             | DFS              |
@@ -54,6 +56,7 @@
 | 203  | Remove Linked List Elements                             | Two Pointers     |
 | 206  | Reverse Linked List                                     | Linked List      |
 | 209  | Minimum Size Subarray Sum                               | Sliding Window   |
+| 210  | Course Schedule II                                      | Topo Sort        |
 | 217  | Contains Duplicate                                      | Array            |
 | 219  | Contains Duplicate II                                   | Hash Table       |
 | 226  | Invert Binary Tree                                      | DFS              |
@@ -65,7 +68,9 @@
 | 287  | Find the Duplicate Number                               | Array            |
 | 295  | Find Median from Data Stream                            | Heap             |
 | 303  | Range Sum Query - Immutable                             | DP               |
+| 380  | Insert Delete GetRandom O(1)                            | Design           |
 | 417  | Pacific Atlantic Water Flow                             | DFS              |
+| 432  | Insert Delete GetRandom O(1)                            | Design           |
 | 437  | Path Sum III                                            | DFS              |
 | 442  | Find All Duplicates in an Array                         | Array            |
 | 448  | Find All Numbers Disappeared in an Array                | Array            |
@@ -88,6 +93,7 @@
 | 733  | Flood Fill                                              | DFS              |
 | 744  | Find Smallest Letter Greater Than Target                | Binary Search    |
 | 784  | Letter Case Permutation                                 | BackTracking     |
+| 785  | Is Graph Bipartite?                                     | DFS              |
 | 787  | Cheapest Flights Within K Stops                         | DFS              |
 | 844  | Backspace String Compare                                | Tow Pointers     |
 | 852  | Peak Index in a Mountain Array                          | Binary Search    |
