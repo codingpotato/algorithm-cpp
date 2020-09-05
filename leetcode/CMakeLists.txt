@@ -33,6 +33,7 @@ set(LEETCODE_SOURCES
     leetcode/design/LRU_cache.cpp
     leetcode/dfs/all_nodes_distance.cpp
     leetcode/dfs/balanced.cpp
+    leetcode/dfs/construct_binary_tree.cpp
     leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/find_mode.cpp
@@ -90,6 +91,7 @@ set(LEETCODE_SOURCES
     leetcode/stack/longest_parentheses.cpp
     leetcode/stack/maximal_rectangle.cpp
     leetcode/stack/next_greater.cpp
+    leetcode/stack/preorder_traversal.cpp
     leetcode/topo_sort/course_schedule_II.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
