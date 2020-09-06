@@ -3,6 +3,9 @@
 #include "tree.h"
 
 // 99. Recover Binary Search Tree
+
+namespace {
+
 class Solution {
  public:
   void recoverTree(TreeNode* root) {
@@ -32,6 +35,8 @@ class Solution {
   TreeNode* first = nullptr;
   TreeNode* second = nullptr;
 };
+
+}  // namespace
 
 TEST_CASE("Recover Binary Search Tree") {
   Solution s;

@@ -34,12 +34,17 @@ set(LEETCODE_SOURCES
     leetcode/dfs/all_nodes_distance.cpp
     leetcode/dfs/balanced.cpp
     leetcode/dfs/construct_binary_tree.cpp
+    leetcode/dfs/convert_sorted_list.cpp
+    leetcode/dfs/delete_node_bst.cpp
     leetcode/dfs/delete_nodes.cpp
     leetcode/dfs/diameter.cpp
     leetcode/dfs/find_mode.cpp
     leetcode/dfs/flatten_binary_tree.cpp
     leetcode/dfs/flood_fill.cpp
     leetcode/dfs/graph_bipaties.cpp
+    leetcode/dfs/greater_tree.cpp
+    leetcode/dfs/increasing_bst.cpp
+    leetcode/dfs/inorder_traversal.cpp
     leetcode/dfs/invert.cpp
     leetcode/dfs/lowest_common.cpp
     leetcode/dfs/lowest_common_ancestor.cpp
@@ -47,10 +52,12 @@ set(LEETCODE_SOURCES
     leetcode/dfs/maximum_tree.cpp
     leetcode/dfs/merge.cpp
     leetcode/dfs/min_depth.cpp
+    leetcode/dfs/minimum_difference.cpp
     leetcode/dfs/pacific_atlantic.cpp
     leetcode/dfs/path_sum.cpp
     leetcode/dfs/path_sum_II.cpp
     leetcode/dfs/path_sum_III.cpp
+    leetcode/dfs/postorder_traversal.cpp
     leetcode/dfs/range_sum.cpp
     leetcode/dfs/recover_bst.cpp
     leetcode/dfs/right_side_view.cpp

@@ -34,6 +34,7 @@
 | 86   | Partition List                                            | Linked List      |
 | 90   | Subsets II                                                | Backtracking     |
 | 92   | Reverse Linked List II                                    | Linked List      |
+| 94   | Binary Tree Inorder Traversal                             | DFS              |
 | 97   | Interleaving String                                       | DP               |
 | 98   | Validate Binary Search Tree                               | DFS              |
 | 99   | Recover Binary Search Tree                                | DFS              |
@@ -43,6 +44,7 @@
 | 104  | Maximum Depth of Binary Tree                              | DFS              |
 | 105  | Construct Binary Tree from Preorder and Inorder Traversal | DFS              |
 | 107  | Binary Tree Level Order Traversal II                      | BFS              |
+| 109  | Convert Sorted List to Binary Search Tree                 | DFS              |
 | 110  | Balanced Binary Tree                                      | DFS              |
 | 111  | Minimum Depth of Binary Tree                              | DFS              |
 | 112  | Path Sum                                                  | DFS              |
@@ -53,6 +55,7 @@
 | 139  | Word Break                                                | DP               |
 | 141  | Linked List Cycle                                         | Two Pointers     |
 | 144  | Binary Tree Preorder Traversal                            | Stack            |
+| 145  | Binary Tree Postorder Traversal                           | DFS              |
 | 146  | LRU Cache                                                 | Design           |
 | 198  | House Robber                                              | DP               |
 | 199  | Binary Tree Right Side View                               | DFS              |
@@ -79,11 +82,13 @@
 | 437  | Path Sum III                                              | DFS              |
 | 442  | Find All Duplicates in an Array                           | Array            |
 | 448  | Find All Numbers Disappeared in an Array                  | Array            |
+| 450  | Delete Node in a BST                                      | DFS              |
 | 461  | Hamming Distance                                          | Bit Manipulation |
 | 494  | Target Sum                                                | DFS              |
 | 501  | Find Mode in Binary Search Tree                           | DFS              |
 | 513  | Find Bottom Left Tree Value                               | DFS              |
 | 524  | Longest Word in Dictionary through Deleting               | Two Pointers     |
+| 538  | Convert BST to Greater Tree                               | DFS              |
 | 543  | Diameter of Binary Tree                                   | DFS              |
 | 560  | Subarray Sum Equals K                                     | Hash Table       |
 | 565  | Array Nesting                                             | Array            |
@@ -106,6 +111,7 @@
 | 852  | Peak Index in a Mountain Array                            | Binary Search    |
 | 863  | All Nodes Distance K in Binary Tree                       | DFS              |
 | 876  | Middle of the Linked List                                 | Two Pointers     |
+| 897  | Increasing Order Search Tree                              | DFS              |
 | 904  | Fruit Into Baskets                                        | Sliding Window   |
 | 938  | Range Sum of BST                                          | DFS              |
 | 977  | Squares of a Sorted Array                                 | Two Pointers     |
