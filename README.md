@@ -36,6 +36,7 @@
 | 92   | Reverse Linked List II                                    | Linked List      |
 | 97   | Interleaving String                                       | DP               |
 | 98   | Validate Binary Search Tree                               | DFS              |
+| 99   | Recover Binary Search Tree                                | DFS              |
 | 100  | Same Tree                                                 | DFS              |
 | 101  | Symmetric Tree                                            | DFS              |
 | 102  | Binary Tree Level Order Traversal                         | BFS              |
@@ -57,6 +58,7 @@
 | 199  | Binary Tree Right Side View                               | DFS              |
 | 203  | Remove Linked List Elements                               | Two Pointers     |
 | 206  | Reverse Linked List                                       | Linked List      |
+| 208  | Implement Trie (Prefix Tree)                              | Trie             |
 | 209  | Minimum Size Subarray Sum                                 | Sliding Window   |
 | 210  | Course Schedule II                                        | Topo Sort        |
 | 217  | Contains Duplicate                                        | Array            |
@@ -71,6 +73,7 @@
 | 295  | Find Median from Data Stream                              | Heap             |
 | 303  | Range Sum Query - Immutable                               | DP               |
 | 380  | Insert Delete GetRandom O(1)                              | Design           |
+| 404  | Sum of Left Leaves                                        | DFS              |
 | 417  | Pacific Atlantic Water Flow                               | DFS              |
 | 432  | Insert Delete GetRandom O(1)                              | Design           |
 | 437  | Path Sum III                                              | DFS              |
@@ -79,6 +82,7 @@
 | 461  | Hamming Distance                                          | Bit Manipulation |
 | 494  | Target Sum                                                | DFS              |
 | 501  | Find Mode in Binary Search Tree                           | DFS              |
+| 513  | Find Bottom Left Tree Value                               | DFS              |
 | 524  | Longest Word in Dictionary through Deleting               | Two Pointers     |
 | 543  | Diameter of Binary Tree                                   | DFS              |
 | 560  | Subarray Sum Equals K                                     | Hash Table       |
@@ -89,6 +93,7 @@
 | 637  | Average of Levels in Binary Tree                          | BFS              |
 | 654  | Maximum Binary Tree                                       | Binary Tree      |
 | 662  | Maximum Width of Binary Tree                              | BFS              |
+| 669  | Trim a Binary Search Tree                                 | DFS              |
 | 703  | Kth Largest Element in a Stream                           | Heap             |
 | 704  | Binary Search                                             | DFS              |
 | 720  | Longest Word in Dictionary                                | Trie             |

@@ -21,12 +21,6 @@ TEST_CASE("Invert binary tree") {
 
   Tree tree{"4, 2, 7, 1, 3, 6, 9"};
   auto root = s.invertTree(tree.root);
-
-  REQUIRE_EQ(root->val, 4);
-  REQUIRE_EQ(root->left->val, 7);
-  REQUIRE_EQ(root->right->val, 2);
-  REQUIRE_EQ(root->left->left->val, 9);
-  REQUIRE_EQ(root->left->right->val, 6);
-  REQUIRE_EQ(root->right->left->val, 3);
-  REQUIRE_EQ(root->right->right->val, 1);
+  Tree expected{"4, 7, 2, 9, 6, 3, 1"};
+  REQUIRE(is_same(root, expected.root));
 }

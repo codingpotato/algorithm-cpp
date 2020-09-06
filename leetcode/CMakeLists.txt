@@ -52,12 +52,15 @@ set(LEETCODE_SOURCES
     leetcode/dfs/path_sum_II.cpp
     leetcode/dfs/path_sum_III.cpp
     leetcode/dfs/range_sum.cpp
+    leetcode/dfs/recover_bst.cpp
     leetcode/dfs/right_side_view.cpp
     leetcode/dfs/same_tree.cpp
     leetcode/dfs/smallest_string.cpp
     leetcode/dfs/subtree.cpp
+    leetcode/dfs/sum_left_leaves.cpp
     leetcode/dfs/symmetric_tree.cpp
     leetcode/dfs/target_sum.cpp
+    leetcode/dfs/trim_bst.cpp
     leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
     leetcode/dp/edit_distance.cpp
@@ -93,6 +96,7 @@ set(LEETCODE_SOURCES
     leetcode/stack/next_greater.cpp
     leetcode/stack/preorder_traversal.cpp
     leetcode/topo_sort/course_schedule_II.cpp
+    leetcode/trie/implement.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
