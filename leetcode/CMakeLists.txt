@@ -22,11 +22,15 @@ set(LEETCODE_SOURCES
     leetcode/bfs/validate_binary_tree.cpp
     leetcode/binary_search/binary_search.cpp
     leetcode/binary_search/find_first_last.cpp
+    leetcode/binary_search/find_minimum.cpp
     leetcode/binary_search/median.cpp
     leetcode/binary_search/peak_index.cpp
     leetcode/binary_search/search_rotated.cpp
     leetcode/binary_search/smallest_letter.cpp
+    leetcode/bit_manipulation/counting_bits.cpp
     leetcode/bit_manipulation/hamming_distance.cpp
+    leetcode/bit_manipulation/reverse_bits.cpp
+    leetcode/bit_manipulation/sum.cpp
     leetcode/design/all_o1.cpp
     leetcode/design/circular_queue.cpp
     leetcode/design/insert_delete.cpp
@@ -74,6 +78,7 @@ set(LEETCODE_SOURCES
     leetcode/dp/house_robber.cpp
     leetcode/dp/interleaving_string.cpp
     leetcode/dp/max_subarray.cpp
+    leetcode/dp/minimum_product.cpp
     leetcode/dp/range_sum_query.cpp
     leetcode/dp/stock_once.cpp
     leetcode/dp/unique_path_II.cpp
@@ -106,6 +111,7 @@ set(LEETCODE_SOURCES
     leetcode/trie/implement.cpp
     leetcode/trie/longest_word.cpp
     leetcode/two_pointers/backspace_string.cpp
+    leetcode/two_pointers/contain_water.cpp
     leetcode/two_pointers/linked_list_cycle.cpp
     leetcode/two_pointers/longest_word.cpp
     leetcode/two_pointers/middle_linked_list.cpp

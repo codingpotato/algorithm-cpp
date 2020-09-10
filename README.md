@@ -5,6 +5,7 @@
 | 1    | Two Sum                                                   | Hash table       |
 | 3    | Longest Substring Without Repeating Characters            | Sliding Window   |
 | 4    | Median of Two Sorted Arrays                               | Binary Search    |
+| 11   | Container With Most Water                                 | Two Pointers     |
 | 15   | 3Sum                                                      | Two Pointers     |
 | 16   | 3Sum Closest                                              | Two Pointers     |
 | 19   | Remove Nth Node From End of List                          | Two Pointers     |
@@ -57,6 +58,9 @@
 | 144  | Binary Tree Preorder Traversal                            | Stack            |
 | 145  | Binary Tree Postorder Traversal                           | DFS              |
 | 146  | LRU Cache                                                 | Design           |
+| 152  | Maximum Product Subarray                                  | DP               |
+| 154  | Find Minimum in Rotated Sorted Array                      | Binary Search    |
+| 190  | Reverse Bits                                              | Bit Manipulation |
 | 198  | House Robber                                              | DP               |
 | 199  | Binary Tree Right Side View                               | DFS              |
 | 203  | Remove Linked List Elements                               | Two Pointers     |
@@ -75,6 +79,8 @@
 | 287  | Find the Duplicate Number                                 | Array            |
 | 295  | Find Median from Data Stream                              | Heap             |
 | 303  | Range Sum Query - Immutable                               | DP               |
+| 338  | Counting Bits                                             | Bit Manipulation |
+| 371  | Sum of Two Integers                                       | Bit Manipulation |
 | 380  | Insert Delete GetRandom O(1)                              | Design           |
 | 404  | Sum of Left Leaves                                        | DFS              |
 | 417  | Pacific Atlantic Water Flow                               | DFS              |
