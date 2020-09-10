@@ -74,6 +74,7 @@ set(LEETCODE_SOURCES
     leetcode/dfs/trim_bst.cpp
     leetcode/dfs/validate_bst.cpp
     leetcode/dp/climbing_stairs.cpp
+    leetcode/dp/coin_change.cpp
     leetcode/dp/edit_distance.cpp
     leetcode/dp/house_robber.cpp
     leetcode/dp/interleaving_string.cpp

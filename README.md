@@ -79,6 +79,7 @@
 | 287  | Find the Duplicate Number                                 | Array            |
 | 295  | Find Median from Data Stream                              | Heap             |
 | 303  | Range Sum Query - Immutable                               | DP               |
+| 322  | Coin Change                                               | DP               |
 | 338  | Counting Bits                                             | Bit Manipulation |
 | 371  | Sum of Two Integers                                       | Bit Manipulation |
 | 380  | Insert Delete GetRandom O(1)                              | Design           |
